@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+
+    <!-- Include ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Include the Sun -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Include house_1 -->
+    <include>
+      <uri>model://house_1</uri>
+      <pose>0 0 0 0 0 0</pose>  <!-- Position it in the world -->
+    </include>
+
+    <!-- Include house_2 -->
+    <include>
+      <uri>model://house_2</uri>
+      <pose>10 0 0 0 0 0</pose>  <!-- Adjust the pose as needed -->
+    </include>
+
+    <!-- Include house_3 -->
+    <include>
+      <uri>model://house_3</uri>
+      <pose>20 0 0 0 0 0</pose>  <!-- Adjust the pose as needed -->
+    </include>
+
+    <!-- Include gas_station -->
+    <include>
+      <uri>model://gas_station</uri>
+      <pose>30 0 0 0 0 0</pose>  <!-- Adjust the pose as needed -->
+    </include>
+
+    <!-- Include lamp_post -->
+    <include>
+      <uri>model://lamp_post</uri>
+      <pose>40 0 0 0 0 0</pose>  <!-- Adjust the pose as needed -->
+    </include>
+
+    <!-- Include opel -->
+    <include>
+      <uri>model://opel</uri>
+      <pose>50 0 0 0 0 0</pose>  <!-- Adjust the pose as needed -->
+    </include>
+
+    <!-- Include stop_sign -->
+    <include>
+      <uri>model://stop_sign</uri>
+      <pose>60 0 0 0 0 0</pose>  <!-- Adjust the pose as needed -->
+    </include>
+
+    <!-- Include stopW -->
+    <include>
+      <uri>model://stopW</uri>
+      <pose>70 0 0 0 0 0</pose>  <!-- Adjust the pose as needed -->
+    </include>
+
+    <!-- Add other models if needed, using the same structure -->
+  
+  </world>
+</sdf>
+

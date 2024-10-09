@@ -1,0 +1,6 @@
+Invoking command in '/home/rhys/ros2_ws/src/car_junction/build/car_junction': /usr/bin/cmake /home/rhys/ros2_ws/src/car_junction -DCMAKE_INSTALL_PREFIX=/home/rhys/ros2_ws/src/car_junction/install/car_junction
+Invoked command in '/home/rhys/ros2_ws/src/car_junction/build/car_junction' returned '0': /usr/bin/cmake /home/rhys/ros2_ws/src/car_junction -DCMAKE_INSTALL_PREFIX=/home/rhys/ros2_ws/src/car_junction/install/car_junction
+Invoking command in '/home/rhys/ros2_ws/src/car_junction/build/car_junction': /usr/bin/cmake --build /home/rhys/ros2_ws/src/car_junction/build/car_junction -- -j16 -l16
+Invoked command in '/home/rhys/ros2_ws/src/car_junction/build/car_junction' returned '0': /usr/bin/cmake --build /home/rhys/ros2_ws/src/car_junction/build/car_junction -- -j16 -l16
+Invoking command in '/home/rhys/ros2_ws/src/car_junction/build/car_junction': /usr/bin/cmake --install /home/rhys/ros2_ws/src/car_junction/build/car_junction
+Invoked command in '/home/rhys/ros2_ws/src/car_junction/build/car_junction' returned '1': /usr/bin/cmake --install /home/rhys/ros2_ws/src/car_junction/build/car_junction

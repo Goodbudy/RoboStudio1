@@ -1,0 +1,10 @@
+/home/student/ros2_ws/src/my_opencv_demo/build/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/src/my_opencv_demo/build/CMakeFiles/my_opencv_demo_uninstall.dir
+/home/student/ros2_ws/src/my_opencv_demo/build/CMakeFiles/minimal_opencv_ros2_node.dir
+/home/student/ros2_ws/src/my_opencv_demo/build/CMakeFiles/test.dir
+/home/student/ros2_ws/src/my_opencv_demo/build/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/src/my_opencv_demo/build/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/src/my_opencv_demo/build/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/src/my_opencv_demo/build/CMakeFiles/install.dir
+/home/student/ros2_ws/src/my_opencv_demo/build/CMakeFiles/install/local.dir
+/home/student/ros2_ws/src/my_opencv_demo/build/CMakeFiles/install/strip.dir
