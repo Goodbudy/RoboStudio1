@@ -1,0 +1,74 @@
+\hypertarget{classCylinder}{}\doxysection{Cylinder Class Reference}
+\label{classCylinder}\index{Cylinder@{Cylinder}}
+
+
+This cpp file runs the code for 3.\+6.  
+
+
+
+
+Inheritance diagram for Cylinder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=157pt]{classCylinder__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Cylinder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=157pt]{classCylinder__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCylinder_a01dc978cb576f834b9545e43d4dad2a2}{Cylinder}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This cpp file runs the code for 3.\+6. 
+
+This file contains a ROS2 node that subscribes to Laser\+Scan and Odometry data, processes laser scan points to detect cylindrical objects, and visualizes the detected objects using markers in RViz. It also performs checks to avoid detecting walls and corners, and only recognizes circular segments that fit the target cylinder size. Key functionalities include\+:
+\begin{DoxyItemize}
+\item Subscribing to Laser\+Scan and Odometry data
+\item Processing the scan to identify segments and circular objects
+\item Publishing visualization markers for detected cylinders in RViz
+\end{DoxyItemize}
+
+The node uses the following techniques\+:
+\begin{DoxyItemize}
+\item Conversion of local laser scan points to global coordinates based on odometry data
+\item Detection of cylinders by analyzing geometric properties of laser scan segments
+\item Visualization of detected segments and cylinders in RViz
+\end{DoxyItemize}
+
+\begin{DoxyNote}{Note}
+The file includes utility functions to check for walls, corners, and existing objects to prevent duplicate detection.
+\end{DoxyNote}
+@dependencies
+\begin{DoxyItemize}
+\item rclcpp (ROS2 client library)
+\item sensor\+\_\+msgs, nav\+\_\+msgs (ROS2 message types)
+\item tf2 for coordinate frame transformations
+\item visualization\+\_\+msgs for RViz marker visualization 
+\end{DoxyItemize}
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCylinder_a01dc978cb576f834b9545e43d4dad2a2}\label{classCylinder_a01dc978cb576f834b9545e43d4dad2a2}} 
+\index{Cylinder@{Cylinder}!Cylinder@{Cylinder}}
+\index{Cylinder@{Cylinder}!Cylinder@{Cylinder}}
+\doxysubsubsection{\texorpdfstring{Cylinder()}{Cylinder()}}
+{\footnotesize\ttfamily Cylinder\+::\+Cylinder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{sprint3__6_8cpp}{sprint3\+\_\+6.\+cpp}}\end{DoxyCompactItemize}

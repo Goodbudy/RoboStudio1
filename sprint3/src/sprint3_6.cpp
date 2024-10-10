@@ -11,6 +11,31 @@
 #include <std_msgs/msg/color_rgba.hpp>
 #include <nav_msgs/msg/occupancy_grid.hpp>
 
+/**
+ * @brief This cpp file runs the code for 3.6 
+ * 
+ * This file contains a ROS2 node that subscribes to LaserScan and Odometry data, processes laser scan points to detect 
+ * cylindrical objects, and visualizes the detected objects using markers in RViz. It also performs checks to avoid detecting walls 
+ * and corners, and only recognizes circular segments that fit the target cylinder size. Key functionalities include:
+ * - Subscribing to LaserScan and Odometry data
+ * - Processing the scan to identify segments and circular objects
+ * - Publishing visualization markers for detected cylinders in RViz
+ * 
+ * The node uses the following techniques:
+ * - Conversion of local laser scan points to global coordinates based on odometry data
+ * - Detection of cylinders by analyzing geometric properties of laser scan segments
+ * - Visualization of detected segments and cylinders in RViz
+ * 
+ * @note The file includes utility functions to check for walls, corners, and existing objects to prevent duplicate detection.
+ * 
+ * @dependencies
+ * - rclcpp (ROS2 client library)
+ * - sensor_msgs, nav_msgs (ROS2 message types)
+ * - tf2 for coordinate frame transformations
+ * - visualization_msgs for RViz marker visualization
+ * 
+ */
+
 class Cylinder : public rclcpp::Node
 {
 public:

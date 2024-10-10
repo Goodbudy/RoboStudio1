@@ -1,5 +1,12 @@
 #include <rclcpp/rclcpp.hpp>
 #include <opencv2/opencv.hpp>
+/**
+ * @brief This cpp file runs the code for 3.2, 
+ * by overlaying the pgm file created from the laser scan on a png screenshot
+ * 
+ * it does this by reading the image data in a folder called image where both are stored.
+ * it aligns the two images as neccessary and then overlays 
+ */
 
 class ImageOverlay : public rclcpp::Node
 {
@@ -72,6 +79,9 @@ void overlayImages()
 }
 };
 
+/** 
+ * This int main just calls neccessary functions from the class ImageOverlay and lets it be called as a node
+*/
 int main(int argc, char *argv[])
 {
     rclcpp::init(argc, argv);
